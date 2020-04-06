@@ -18,7 +18,7 @@ function getNombre(user) {
 
 function getGreeting(user) {
     if (user) {
-        return <h1>Hola {getNombre(user)}</h1>
+        return <h1>Holas {getNombre(user)}</h1>
     }
     // return <h1>hola</h1>
 }
